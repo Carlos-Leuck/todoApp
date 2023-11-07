@@ -8,6 +8,7 @@ import { Todo } from 'src/models/todo.model';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
+  public mode = 'list';
   public todos: Todo[] = [];
   public title: string = 'Minhas Tarefas';
   public form: FormGroup;
@@ -18,7 +19,7 @@ export class AppComponent {
         '',
         Validators.compose([
           Validators.minLength(3),
-          Validators.maxLength(200),
+          Validators.maxLength(60),
           Validators.required,
         ]),
       ],
@@ -32,6 +33,7 @@ export class AppComponent {
     this.todos.push(new Todo(id, title, false));
     this.save();
     this.clear();
+    this.changeMode('list');
   }
 
   clear() {
@@ -63,6 +65,9 @@ export class AppComponent {
 
   load() {
     const data = localStorage.getItem('todos');
-    this.todos = JSON.parse(data!);
+    this.todos = data !== null ? JSON.parse(data) : [];
+  }
+  changeMode(mode: string) {
+    this.mode = mode;
   }
 }
