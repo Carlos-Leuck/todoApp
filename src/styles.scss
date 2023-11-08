@@ -7,10 +7,6 @@ body {
   font-weight: 300;
   text-align: center;
   background: #3023ae;
-  background: -moz-linear-gradient(60deg, #3023ae 0%, #c86dd7 100%);
-  background: -webkit-linear-gradient(60deg, #3023ae 0%, #c86dd7 100%);
-  background: linear-gradient(60deg, #3023ae 0%, #c86dd7 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3023ae', endColorstr='#c86dd7', GradientType=1);
 }
 
 button {
@@ -74,7 +70,7 @@ li > button:hover {
   padding-right: 50px;
 }
 
-#modal {
+.modal {
   text-align: left;
   margin: 10px;
   padding: 10px;
@@ -84,10 +80,9 @@ li > button:hover {
   -webkit-box-shadow: 3px 4px 14px 0px rgba(0, 0, 0, 0.39);
   -moz-box-shadow: 3px 4px 14px 0px rgba(0, 0, 0, 0.39);
   box-shadow: 3px 4px 14px 0px rgba(0, 0, 0, 0.39);
-}
-
-#modal > h1 {
-  font-weight: 300;
+  h1 {
+    font-weight: 300;
+  }
 }
 
 input {
