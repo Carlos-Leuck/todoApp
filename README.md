@@ -1,6 +1,7 @@
 # TodoApp
 
 Projeto de estudo gerado utilizando [Angular CLI](https://github.com/angular/angular-cli) version 16.2.9.
+
 Design baseado no [Curso](https://balta.io/player/assistir/5c6b2cc2-e717-9a27-eb62-bae000000000)
  
 ## Motivação para fazer o curso
