@@ -4,17 +4,11 @@ Projeto de estudo gerado utilizando [Angular CLI](https://github.com/angular/ang
 
 Design baseado no [Curso](https://balta.io/player/assistir/5c6b2cc2-e717-9a27-eb62-bae000000000)
  
-## Motivação para fazer o curso
-Decidi aprender Angular, pois vejo muitas oportunidades de Angular + .NET
-Acredito que pode ser um diferencial para a minha carreira se eu conseguir dominar pelo menos o básico/intermediário dessa tecnologia.
-Além disso, já possuo experiência com HTML, CSS e React/Next. 
-Dessa forma, conseguirei reaproveitar uma boa base no Angular.
+## Motivação
+A decisão de explorar o Angular é motivada pela convicção de que dominar seus conceitos básicos e intermediários é crucial para atender às demandas do cenário profissional atual. Além disso, possuo uma sólida bagagem em HTML, CSS e experiência prévia em React/Next, o que me permite reutilizar alguns conceitos ao migrar para o ecossistema Angular.
 
 ## Aprendizados
-- Consegui perceber semelhanças entre os frameworks e criar analogias entre as diferenças.
-- Consegui aprender a manipular estados, renderizar condicionalmente componentes e a validar um formulário.
-(Algo que já sabia fazer em react, porém aprendi com a sintaxe do Angular).
-- Enfim, tive uma experiência positiva ao concluir esse curso!
-
+Adquiri competências na manipulação de estados, renderização condicional de componentes e validação de formulários, habilidades que já dominava no contexto do React, mas que agora foram consolidadas sob a sintaxe específica do Angular.
+  
 ## Considerações finais
-- Fiz algumas alterações no layout, principalmente, para adaptar a responsividade ao mobile (porém, ainda não está perfeito).
+Durante a conclusão deste projeto, implementei algumas modificações no layout, com foco principal na adaptação da responsividade para dispositivos móveis. É relevante observar que, embora tenha realizado melhorias significativas, reconheço que ainda há espaço para aprimoramentos, especialmente no que diz respeito à otimização para a experiência mobile. Este é um aspecto que pretendo continuar refinando para atingir um padrão de qualidade mais elevado.
